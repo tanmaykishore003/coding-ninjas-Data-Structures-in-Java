@@ -8,6 +8,7 @@ public class Intersection {
                 if(arr2[j] == arr1[i]) {
                     System.out.print(arr2[j]+" ");
                     arr1[i] = Integer.MIN_VALUE;
+                    break;
                 }
             }
         } 
